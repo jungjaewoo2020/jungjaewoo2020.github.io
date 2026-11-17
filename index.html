@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11271f">
+  <meta name="description" content="Jaewoo Jung — mathematician at DGIST. Research in algebraic geometry, commutative algebra, and combinatorics. Papers, research, and contact information.">
+  <meta property="og:title" content="Jaewoo Jung · Mathematics">
+  <meta property="og:description" content="Exploring the geometry behind algebra. Research, papers, and ideas by Jaewoo Jung.">
+  <meta property="og:type" content="website">
+  <title>Jaewoo Jung · Mathematics</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Jaewoo Jung home"><span class="monogram">J<span>J</span><i>.</i></span><span>JAEWOO JUNG<span class="brand-sub">MATHEMATICS</span></span></a>
+    <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#about">About</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+    <button class="theme-button" type="button" aria-label="Switch to light theme" title="Switch color theme"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> MATHEMATICIAN · DGIST, SOUTH KOREA</p>
+        <h1 id="hero-title">Jaewoo<br><em>Jung</em><span class="title-dot">.</span></h1>
+        <p class="hero-statement">Exploring the geometry<br>behind <em>algebra.</em></p>
+        <p class="hero-description">I study the connections between algebraic geometry, combinatorics, and quadratic forms.</p>
+        <div class="hero-actions"><a class="button primary" href="#publications">Explore my research <span aria-hidden="true">↗</span></a><a class="text-link" href="./cv-jaewoo-jung.pdf" target="_blank" rel="noopener">Curriculum vitae <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <figure class="math-art">
+        <div class="art-top"><span>FIG. 01 / A QUADRATIC SURFACE</span><span class="art-cross" aria-hidden="true">+</span></div>
+        <canvas id="surface" role="img" aria-label="A rotating wireframe hyperbolic paraboloid, the quadratic surface z equals one half of x squared minus y squared"></canvas>
+        <div class="surface-equation" aria-hidden="true">z = ½(x² − y²)</div>
+        <figcaption><span>Algebra, seen through geometry.</span><button type="button" id="motion-toggle" aria-pressed="false" aria-label="Pause surface animation"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause</span></button></figcaption>
+      </figure>
+      <div class="hero-bottom"><span>POSTDOCTORAL RESEARCHER<br><strong>Global BRL · AGSTA</strong></span><span>ALGEBRAIC GEOMETRY<br><strong>Commutative algebra & combinatorics</strong></span><a href="#research" class="scroll-link">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="research-section" id="research" aria-labelledby="research-title">
+      <div class="wrap">
+        <div class="section-heading"><p class="eyebrow">01 / RESEARCH</p><h2 id="research-title">Different perspectives.<br><em>Connected ideas.</em></h2><p>My research brings together the geometry of varieties, the structure of polynomials, and the combinatorics of graphs.</p></div>
+        <div class="research-grid">
+          <article class="research-item"><span class="research-number">01</span><div class="research-symbol" aria-hidden="true">X ⊂ ℙⁿ</div><h3>Algebraic geometry</h3><p>Complex and real varieties, projective curves, and the geometry of higher secant spaces.</p><a href="#publications" data-topic-link="geometry">Explore papers <span aria-hidden="true">↗</span></a></article>
+          <article class="research-item"><span class="research-number">02</span><div class="research-symbol" aria-hidden="true">∑ fᵢ²</div><h3>Positivity & quadratic forms</h3><p>Sums of squares on varieties, Hankel index, quadratic persistence, and Pythagoras numbers.</p><a href="#publications" data-topic-link="positivity">Explore papers <span aria-hidden="true">↗</span></a></article>
+          <article class="research-item"><span class="research-number">03</span><div class="research-symbol" aria-hidden="true">βᵢ,ⱼ</div><h3>Algebra & combinatorics</h3><p>Graph ideals and syzygies, simplicial complexes, and bounds on Castelnuovo–Mumford regularity.</p><a href="#publications" data-topic-link="combinatorics">Explore papers <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </div>
+    </section>
+    <section class="publications-section wrap" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading horizontal"><div><p class="eyebrow">02 / PUBLICATIONS</p><h2 id="publications-title">Papers & <em>preprints.</em></h2></div><a class="text-link" href="https://arxiv.org/search/?searchtype=author&query=Jung%2C+Jaewoo" target="_blank" rel="noopener">Find me on arXiv <span aria-hidden="true">↗</span></a></div>
+      <div class="publication-toolbar" hidden>
+        <div class="filters" role="group" aria-label="Filter publications"><button type="button" data-filter="all" aria-pressed="true">All <span>7</span></button><button type="button" data-filter="published" aria-pressed="false">Published</button><button type="button" data-filter="preprint" aria-pressed="false">Preprints</button></div>
+        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span class="sr-only">Search papers by title, author, year, or topic</span><input id="paper-search" type="search" placeholder="Search papers…" autocomplete="off"></label>
+      </div>
+      <p id="paper-status" class="sr-only" role="status" aria-live="polite">Showing all 7 papers.</p>
+      <div class="paper-list">
+        <article class="paper" data-status="preprint" data-topics="combinatorics"><div class="paper-year">2026<span>01</span></div><div class="paper-content"><span class="paper-type">PREPRINT</span><h3><a href="https://arxiv.org/abs/2606.24261" target="_blank" rel="noopener">A combinatorial approach to α-Ricci and Lin–Lu–Yau Ricci curvatures on graphs</a></h3><p>with Young Soo Kwon, Seungjae Lee, and Jihye Park</p><span class="paper-venue">arXiv:2606.24261</span></div><a class="paper-open" href="https://arxiv.org/abs/2606.24261" target="_blank" rel="noopener" aria-label="Read A combinatorial approach to Ricci curvatures on graphs">↗</a></article>
+        <article class="paper" data-status="published" data-topics="geometry"><div class="paper-year">2026<span>02</span></div><div class="paper-content"><span class="paper-type published">PUBLISHED</span><h3><a href="https://doi.org/10.1016/j.jalgebra.2026.02.018" target="_blank" rel="noopener">On the rank index of projective curves of almost minimal degree</a></h3><p>with Hyunsuk Moon and Euisung Park</p><span class="paper-venue">Journal of Algebra 697, 574–606</span></div><a class="paper-open" href="https://doi.org/10.1016/j.jalgebra.2026.02.018" target="_blank" rel="noopener" aria-label="Read On the rank index of projective curves">↗</a></article>
+        <article class="paper" data-status="preprint" data-topics="geometry positivity"><div class="paper-year">2025<span>03</span></div><div class="paper-content"><span class="paper-type">PREPRINT</span><h3><a href="https://arxiv.org/abs/2506.13247" target="_blank" rel="noopener">On quadratic persistence and Pythagoras numbers of totally real projective varieties</a></h3><p>with Jong In Han and Euisung Park</p><span class="paper-venue">arXiv:2506.13247</span></div><a class="paper-open" href="https://arxiv.org/abs/2506.13247" target="_blank" rel="noopener" aria-label="Read On quadratic persistence and Pythagoras numbers">↗</a></article>
+        <article class="paper" data-status="preprint" data-topics="geometry combinatorics"><div class="paper-year">2025<span>04</span></div><div class="paper-content"><span class="paper-type">PREPRINT</span><h3><a href="https://arxiv.org/abs/2502.20987" target="_blank" rel="noopener">A Fröberg type theorem for higher secant complexes</a></h3><p>with Junho Choe</p><span class="paper-venue">arXiv:2502.20987</span></div><a class="paper-open" href="https://arxiv.org/abs/2502.20987" target="_blank" rel="noopener" aria-label="Read A Fröberg type theorem">↗</a></article>
+        <article class="paper" data-status="published" data-topics="geometry positivity"><div class="paper-year">2024<span>05</span></div><div class="paper-content"><span class="paper-type published">PUBLISHED</span><h3><a href="https://doi.org/10.1017/fms.2024.45" target="_blank" rel="noopener">Sums of squares, Hankel index, and almost real rank</a></h3><p>with Grigoriy Blekherman and Justin Chen</p><span class="paper-venue">Forum of Mathematics, Sigma 12, e70</span></div><a class="paper-open" href="https://doi.org/10.1017/fms.2024.45" target="_blank" rel="noopener" aria-label="Read Sums of squares, Hankel index, and almost real rank">↗</a></article>
+        <article class="paper" data-status="preprint" data-topics="combinatorics"><div class="paper-year">2023<span>06</span></div><div class="paper-content"><span class="paper-type">PREPRINT</span><h3><a href="https://arxiv.org/abs/2308.03338" target="_blank" rel="noopener">An Eisenbud–Goto type inequality for Stanley–Reisner ideals and simplicial complexes</a></h3><p>with Jinha Kim, Minki Kim, and Yeongrak Kim</p><span class="paper-venue">arXiv:2308.03338</span></div><a class="paper-open" href="https://arxiv.org/abs/2308.03338" target="_blank" rel="noopener" aria-label="Read An Eisenbud–Goto type inequality">↗</a></article>
+        <article class="paper" data-status="published" data-topics="combinatorics"><div class="paper-year">2020<span>07</span></div><div class="paper-content"><span class="paper-type published">PUBLISHED</span><h3><a href="https://doi.org/10.1016/j.jcta.2020.105296" target="_blank" rel="noopener">Bounds on regularity of quadratic monomial ideals</a></h3><p>with Grigoriy Blekherman</p><span class="paper-venue">Journal of Combinatorial Theory, Series A 176, 105296</span></div><a class="paper-open" href="https://doi.org/10.1016/j.jcta.2020.105296" target="_blank" rel="noopener" aria-label="Read Bounds on regularity of quadratic monomial ideals">↗</a></article>
+      </div>
+      <p class="empty-state" hidden>No matching papers. Try a different title, author, or year.</p>
+      <div class="research-resources"><div><span class="eyebrow">COMPUTATIONAL COMPANION</span><h3>From theorems to computation.</h3><p>Macaulay2 code for bounds on the Leray numbers of simplicial complexes.</p></div><a class="button outline" href="https://github.com/jungjaewoo2020/Bounds-on-Leray-Numbers" target="_blank" rel="noopener">Explore the code <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-grid">
+      <div class="about-photo"><p class="eyebrow">03 / ABOUT</p><div class="portrait-frame"><img src="./jaewoo-jung.jpg" alt="Portrait of Jaewoo Jung" width="415" height="365" loading="lazy"><span class="portrait-mark" aria-hidden="true">J.</span></div><p>JAEWOO JUNG <span>정재우 · Jaewoo Jeong</span></p></div>
+      <div class="about-copy"><h2 id="about-title">A little <em>about me.</em></h2><p class="about-lead">I am a postdoctoral researcher at <a href="https://sites.google.com/view/brl-agsta/home" target="_blank" rel="noopener">Global BRL–AGSTA</a> at DGIST, working in algebraic geometry, commutative algebra, and combinatorics.</p><p>I received my Ph.D. in mathematics from Georgia Tech in 2022, advised by Grigoriy Blekherman, and my B.S. from Korea University in 2014, advised by Euisung Park.</p><div class="timeline"><div><span>2025 — PRESENT</span><p>DGIST <small>Postdoctoral Researcher · Global BRL–AGSTA</small></p></div><div><span>2022 — 2025</span><p>Institute for Basic Science <small>Postdoctoral Research Associate · Center for Complex Geometry</small></p></div><div><span>2016 — 2022</span><p>Georgia Institute of Technology <small>Ph.D. in Mathematics</small></p></div></div><div class="about-links"><a class="text-link" href="./cv-jaewoo-jung.pdf" target="_blank" rel="noopener">View full CV <span aria-hidden="true">↗</span></a><a class="text-link" href="./phd-thesis.pdf" target="_blank" rel="noopener">Read my thesis <span aria-hidden="true">↗</span></a></div></div>
+    </div></section>
+    <section class="notes-section wrap" aria-labelledby="notes-title"><div class="section-heading horizontal"><div><p class="eyebrow">04 / NOTES & ACTIVITY</p><h2 id="notes-title">Beyond the <em>paper.</em></h2></div><p>A few recent milestones and resources.</p></div><div class="notes-grid"><article><span class="eyebrow">RECOGNITION · 2026</span><h3>Sejong Science Fellowship</h3><p>Principal Investigator, National Research Foundation of Korea.<br>September 2026 – August 2031.</p></article><article><span class="eyebrow">SELECTED TALK · AUG 2026</span><h3>Waring problems & rational curves</h3><p>“Simultaneous Waring problems for binary forms and the geometry of rational curves.” Algebraic Geometry Workshop, KAIST.</p></article><article><span class="eyebrow">RESEARCH POSTERS</span><h3>A visual introduction</h3><a class="resource-link" href="./hankel-index-poster.pdf" target="_blank" rel="noopener">Hankel index of rational curves <span aria-hidden="true">↗</span></a><a class="resource-link" href="./regularity-poster.pdf" target="_blank" rel="noopener">Regularity of quadratic monomial ideals <span aria-hidden="true">↗</span></a></article></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap"><p class="eyebrow">05 / GET IN TOUCH</p><div class="contact-top"><h2 id="contact-title">Let’s exchange<br><em>ideas.</em><span class="title-dot">↗</span></h2><div class="contact-details"><p>For research conversations,<br>questions, and collaboration.</p><a href="mailto:jaewoojung@dgist.ac.kr" class="contact-email">jaewoojung@dgist.ac.kr</a><button type="button" class="copy-email" hidden>Copy email address <span aria-hidden="true">⧉</span></button><span id="copy-status" role="status" class="sr-only"></span></div></div><div class="contact-bottom"><p>DGIST · Global BRL–AGSTA<br><span>Daegu, South Korea · Office E7 L23</span></p><div><a href="https://github.com/jungjaewoo2020" target="_blank" rel="noopener">GitHub ↗</a><a href="https://sites.google.com/view/jaewoojung/home" target="_blank" rel="noopener">Google Sites ↗</a><a href="./cv-jaewoo-jung.pdf" target="_blank" rel="noopener">CV ↗</a></div></div></div></section>
+  </main>
+  <footer class="wrap site-footer"><span>© <span id="year">2026</span> Jaewoo Jung</span><span>Algebra. Geometry. Possibility.</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
